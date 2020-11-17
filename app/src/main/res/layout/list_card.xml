@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
 
                 android:text="Tuzak Adı"
-                android:textColor="#F44336"
+                android:textColor="#2B2B2B"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
