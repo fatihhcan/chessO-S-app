@@ -9,8 +9,8 @@ import com.example.chessos.R
 
 class SplashScreenActivity : AppCompatActivity() {
     lateinit var handler: Handler
-
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
