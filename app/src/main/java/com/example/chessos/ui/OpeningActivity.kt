@@ -1,6 +1,7 @@
 package com.example.chessos.ui
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.example.chessos.R
+import com.example.chessos.core.DetailActivity
 import com.example.chessos.core.Opening
 import kotlinx.android.synthetic.main.activity_opening.*
 import kotlinx.android.synthetic.main.list_card.view.*
@@ -68,6 +70,10 @@ class OpeningActivity : AppCompatActivity() {
             openingCard.cardTitle.text = positionOpening.constTitle
             openingCard.cardName.text = positionOpening.constName
             openingCard.imageCard.setImageResource(positionOpening.constImage!!)
+
+            openingCard.imageCard.setOnClickListener {
+                var intent = Intent(context,DetailActivity::class.java)
+            }
             return openingCard
 
         }
