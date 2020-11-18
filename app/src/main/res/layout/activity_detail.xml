@@ -19,7 +19,7 @@
             <ImageView
                 android:id="@+id/imageViewDetail"
                 android:layout_width="match_parent"
-                android:layout_height="350"
+                android:layout_height="fill_parent"
                 app:srcCompat="@drawable/logo" />
 
             <TextView

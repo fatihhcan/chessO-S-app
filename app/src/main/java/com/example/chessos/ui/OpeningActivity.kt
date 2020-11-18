@@ -73,6 +73,11 @@ class OpeningActivity : AppCompatActivity() {
 
             openingCard.imageCard.setOnClickListener {
                 var intent = Intent(context,DetailActivity::class.java)
+                intent.putExtra("constTitle",positionOpening.constTitle)
+                intent.putExtra("constName",positionOpening.constName)
+                intent.putExtra("constImage",positionOpening.constImage)
+                context!!.startActivity(intent)
+
             }
             return openingCard
 
