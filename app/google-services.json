@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435590569803",
+    "firebase_url": "https://chess-o-s.firebaseio.com",
+    "project_id": "chess-o-s",
+    "storage_bucket": "chess-o-s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435590569803:android:12150f239644ce487a12ce",
+        "android_client_info": {
+          "package_name": "com.example.chessos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435590569803-ijdhdaou7n6rrccb5s3t8270ootskdk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaNJiK0jMUvaKhv0Zo-kcB2NN14EC O05k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435590569803-ijdhdaou7n6rrccb5s3t8270ootskdk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
