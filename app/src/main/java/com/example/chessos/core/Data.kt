@@ -8,6 +8,7 @@ class Opening{
     var constOpening:String?=null
 
 
+
     constructor(constTitle:String,constName:String,constImage:Int, constOpening:String){
         this.constTitle=constTitle
         this.constName=constName

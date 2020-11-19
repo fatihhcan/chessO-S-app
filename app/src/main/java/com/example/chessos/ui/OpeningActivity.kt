@@ -26,7 +26,7 @@ class OpeningActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_opening)
 
-        constList.add(Opening("Nuh'un Gemisi Tuzağı","Magnus Carlsen",R.drawable.opening128,"1. e4 e5\n" +
+        constList.add(Opening("Nuh'un Gemisi Tuzağı","Magnus Carlsen",R.drawable.plan,"1. e4 e5\n" +
                 "2. f3 c6\n" +
                 "3. b5 a6\n" +
                 "4. a4 d6\n" +
@@ -37,7 +37,7 @@ class OpeningActivity : AppCompatActivity() {
                 "9. d5 e6\n" +
                 "10. c6+ d7\n" +
                 "11. d5 c4"))
-        constList.add(Opening("Légal Tuzağı","Fabiano Caruana",R.drawable.opening128,"1.e4 e5\n" +
+        constList.add(Opening("Légal Tuzağı","Fabiano Caruana",R.drawable.plan,"1.e4 e5\n" +
                 "2.f3 c6\n" +
                 "3.c4 d6\n" +
                 "4.c3 g4\n" +
@@ -45,7 +45,7 @@ class OpeningActivity : AppCompatActivity() {
                 "6. xe5 xd1\n" +
                 "7. xf7+ e7\n" +
                 "8.d5#"))
-        constList.add(Opening("Cambridge Springs Tuzağı","Ding Liren",R.drawable.opening128,"1.d4 d5\n" +
+        constList.add(Opening("Cambridge Springs Tuzağı","Ding Liren",R.drawable.plan,"1.d4 d5\n" +
                 "2.c4 e6\n" +
                 "3.c3 f6\n" +
                 "4.g5 bd7\n" +
@@ -54,7 +54,7 @@ class OpeningActivity : AppCompatActivity() {
                 "7.xd8 b4+\n" +
                 "8.d2 xd2+\n" +
                 "9.xd2 xd8"))
-        constList.add(Opening("Lasker Tuzağı","Maxime Vachier-Lagrave",R.drawable.opening128,"1.d4 d5\n" +
+        constList.add(Opening("Lasker Tuzağı","Maxime Vachier-Lagrave",R.drawable.plan,"1.d4 d5\n" +
                 "2.c4 e5\n" +
                 "3.dxe5 d4\n" +
                 "4.e3 b4+\n" +
@@ -67,7 +67,7 @@ class OpeningActivity : AppCompatActivity() {
                 "10.c3 g4\n" +
                 "11. e2\n" +
                 " O-O-O+"))
-        constList.add(Opening("Rubinstein Tuzağı","Ian Nepomniachtchi",R.drawable.opening128,"1.d4 d5\n" +
+        constList.add(Opening("Rubinstein Tuzağı","Ian Nepomniachtchi",R.drawable.plan,"1.d4 d5\n" +
                 "2.f3 f6\n" +
                 "3.c4 e6\n" +
                 "4.g5 bd7\n" +
@@ -81,7 +81,7 @@ class OpeningActivity : AppCompatActivity() {
                 "12.f4 f5\n" +
                 "13.xd5 cxd5\n" +
                 "14. c7"))
-        constList.add(Opening("Sibirya Tuzağı","Levon Aronian",R.drawable.opening128,"1.e4 c5\n" +
+        constList.add(Opening("Sibirya Tuzağı","Levon Aronian",R.drawable.plan,"1.e4 c5\n" +
                 "2.d4 cxd4\n" +
                 "3.c3 dxc3\n" +
                 "4.xc3 c6\n" +
@@ -92,21 +92,21 @@ class OpeningActivity : AppCompatActivity() {
                 "9.h3 d4\n" +
                 "10. xd4 xf3+\n" +
                 "11.xf3 h2#"))
-        constList.add(Opening("Fajarowicz Tuzağı","Alexander Grischuk",R.drawable.opening128,"1.d4 f6\n" +
+        constList.add(Opening("Fajarowicz Tuzağı","Alexander Grischuk",R.drawable.plan,"1.d4 f6\n" +
                 "2.c4 e5\n" +
                 "3.dxe5 e4\n" +
                 "4.f3 d6\n" +
                 "5.exd6 xd6\n" +
                 "6.g3 xf2\n" +
                 "7.xf2 xg3+"))
-        constList.add(Opening("Blackburne Shilling Tuzağı","Wesley So",R.drawable.opening128,"1.e4 e5\n" +
+        constList.add(Opening("Blackburne Shilling Tuzağı","Wesley So",R.drawable.plan,"1.e4 e5\n" +
                 "2.f3 c6\n" +
                 "3.c4 d4\n" +
                 "4.xe5 g5\n" +
                 "5.xf7 xg2\n" +
                 "6.f1 xe4+\n" +
                 "7.e2 f3#"))
-        constList.add(Opening("Englund Gambiti Tuzağı","Shakhriyar Mamedyarov",R.drawable.opening128,"1.d4 e5\n" +
+        constList.add(Opening("Englund Gambiti Tuzağı","Shakhriyar Mamedyarov",R.drawable.plan,"1.d4 e5\n" +
                 "2.dxe5 c6\n" +
                 "3.f3 e7\n" +
                 "4.f4 b4+\n" +
@@ -114,7 +114,7 @@ class OpeningActivity : AppCompatActivity() {
                 "6.c3 b4\n" +
                 "7.d2 xc3\n" +
                 "8.xc3 c1#"))
-        constList.add(Opening("Olta Tuzağı","Teimour Radjabov",R.drawable.opening128,"1.e4 e5\n" +
+        constList.add(Opening("Olta Tuzağı","Teimour Radjabov",R.drawable.plan,"1.e4 e5\n" +
                 "2.f3 c6\n" +
                 "3.b5 f6\n" +
                 "4.O-O g4\n" +

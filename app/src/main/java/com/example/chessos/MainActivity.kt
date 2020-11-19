@@ -5,18 +5,25 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.chessos.ui.OpeningActivity
+import com.example.chessos.ui.StoriesActivity
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        var intent = Intent(this, OpeningActivity::class.java)
+        var intentOpening = Intent(this, OpeningActivity::class.java)
+        var intentStories = Intent(this, StoriesActivity::class.java)
+
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     var buttonOpening = findViewById<Button>(R.id.buttonOpening)
+    var buttonStories = findViewById<Button>(R.id.buttonStories)
         buttonOpening.setOnClickListener {
-        startActivity(intent)
+        startActivity(intentOpening)
+        }
 
+        buttonStories.setOnClickListener {
+        startActivity(intentStories)
         }
     }
 
