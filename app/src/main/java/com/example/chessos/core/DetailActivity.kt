@@ -14,10 +14,12 @@ class DetailActivity : AppCompatActivity() {
         var title=bundle!!.getString("constTitle")
         var name= bundle.getString("constName")
         var image = bundle.getInt("constImage")
+        var opening = bundle.getString("constOpening")
 
         textViewTitleDetail.text=title
         textViewNameDetail.text=name
         imageViewDetail.setImageResource(image)
+        textViewOpening.text=opening
 
     }
 }
