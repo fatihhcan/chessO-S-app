@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".core.DetailActivity">
+    tools:context=".core.StoriesDetailActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -18,13 +18,13 @@
             android:padding="10dp">
 
             <ImageView
-                android:id="@+id/imageViewDetail"
+                android:id="@+id/imageViewDetailStories"
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
                 app:srcCompat="@drawable/logo" />
 
             <TextView
-                android:id="@+id/textViewTitleDetail"
+                android:id="@+id/textViewTitleDetailStories"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -33,19 +33,13 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textViewNameDetail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="TextView"
-                android:textStyle="italic" />
 
             <TextView
-                android:id="@+id/textViewOpening"
+                android:id="@+id/textViewOpeningStories"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_gravity="center"
                 android:text="TextView"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="24sp"

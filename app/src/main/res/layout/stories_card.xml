@@ -8,7 +8,7 @@
     android:padding="10dp">
 
     <LinearLayout
-        android:id="@+id/layoutCard"
+        android:id="@+id/layoutStoriesCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_card"
@@ -16,11 +16,11 @@
         android:padding="10dp">
 
         <ImageView
-            android:id="@+id/imageCard"
+            android:id="@+id/imageStoriesCard"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/opening128" />
+            app:srcCompat="@drawable/stories" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/cardTitle"
+                android:id="@+id/cardStoriesTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -39,9 +39,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/cardName"
+                android:id="@+id/cardDesName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="chess player"
                 android:textColor="@color/black"
                 android:textSize="24sp"
